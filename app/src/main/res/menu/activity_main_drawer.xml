@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/shopping"
+            android:title="View Shop" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/bell"
+            android:title="Emergency Notifications" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/shop"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/discount"
+            android:title="View Offer" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/shopping"
+            android:title="View Nearby Shop" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/message"
+            android:title="Help Message" />
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/customer_service"
+            android:title="View Service" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/scan"
+            android:icon="@drawable/qrscan"
+            android:title="Scan QR" />
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+</menu>
